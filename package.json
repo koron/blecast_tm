@@ -6,6 +6,13 @@
     "name": "MURAOKA Taro",
     "email": "koron.kaoriya@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koron/blecast_tm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koron/blecast_tm/issues"
+  },
   "keywords": [
     "iot",
     "ble",
