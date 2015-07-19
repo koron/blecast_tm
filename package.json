@@ -18,7 +18,7 @@
     "ble",
     "thermal"
   ],
-  "main": "index.js",
+  "main": "lib/blecast_tm.js",
   "license": "MIT",
   "dependencies": {
     "noble": "^1.0.2"
