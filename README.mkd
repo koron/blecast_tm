@@ -1,7 +1,8 @@
 # BLECAST_TM module
 
-[BLECAST\_TM](http://www.robotsfx.com/robot/BLECAST_TM.html) is a thermal
-monitor via BLE advertisement.
+[BLECAST\_TM](http://www.robotsfx.com/robot/BLECAST_TM.html) accessing module
+for NodeJS.  BLECAST\_TM is a thermal monitoring device which using BLE's
+advertising.
 
 ## How to use example.
 
