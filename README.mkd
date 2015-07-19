@@ -16,7 +16,7 @@ advertising.
     $ find -path '*noble*Release/hci-ble' -exec sudo setcap cap_net_raw+eip '{}' \;
 
 ```javascript
-var BlecastTM = require('./lib/blecast_tm.js');
+var BlecastTM = require('blecast_tm');
 
 var monitor = new BlecastTM();
 
