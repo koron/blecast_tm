@@ -1,0 +1,22 @@
+{
+  "name": "blecast_tm",
+  "description": "BLE thermal monitor",
+  "version": "0.1.0",
+  "author": {
+    "name": "MURAOKA Taro",
+    "email": "koron.kaoriya@gmail.com"
+  },
+  "keywords": [
+    "iot",
+    "ble",
+    "thermal"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "noble": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

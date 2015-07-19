@@ -1,0 +1,25 @@
+# BLECAST_TM module
+
+[BLECAST\_TM](http://www.robotsfx.com/robot/BLECAST_TM.html) is a thermal
+monitor via BLE advertisement.
+
+## How to use example.
+
+    $ npm install
+    $ find -path '*noble*Release/hci-ble' -exec sudo setcap cap_net_raw+eip '{}' \;
+    $ node main.js
+
+## How to use from your code.
+
+    $ npm install blecast_tm --save
+    $ find -path '*noble*Release/hci-ble' -exec sudo setcap cap_net_raw+eip '{}' \;
+
+```javascript
+var BlecastTM = require('./lib/blecast_tm.js');
+
+var monitor = new BlecastTM();
+
+monitor.on('data', function(data) {
+  console.log('data:', data);
+});
+```
